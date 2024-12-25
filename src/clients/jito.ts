@@ -8,7 +8,7 @@ import {
 } from 'jito-ts/dist/sdk/block-engine/searcher.js';
 import * as fs from 'fs';
 
-const BLOCK_ENGINE_URLS = config.get('block_engine_urls');
+const BLOCK_ENGINE_URLS = config.get('block_engine_urls');,
 const AUTH_KEYPAIR_PATH = config.get('auth_keypair_path');
 
 const GEYSER_URL = config.get('geyser_url');
